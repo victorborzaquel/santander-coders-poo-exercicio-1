@@ -1,9 +1,9 @@
 package ExercicioObjPessoa;
 
 public class Pessoa {
-    private String nomePessoa;
-    private int idade;
-    private double altura;
+    private final String nomePessoa;
+    private final int idade;
+    private final double altura;
 
     public Pessoa(String nomePessoa, int idade, double altura) {
         this.nomePessoa = nomePessoa;
